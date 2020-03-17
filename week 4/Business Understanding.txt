@@ -1,0 +1,20 @@
+1. Introduction/Business Problem
+- In this project, I explore, segment, and cluster the parking lot in the city of Toronto. 
+The most common venues will be separated into each cluster of parking in the city.
+The idea of this study is to help people planning to open a new restaurant which will be served for 
+a special customer. It can be banker or asian or korean,...
+
+2. Data
+- The parking data which is got from toronto open data (https://open.toronto.ca/dataset/parking-lot-facilities/)
+This dataset includes data on parking lots operated by the City of Toronto PF&R Division. Parking lots are located
+in parks or on the building grounds of community centres, schools, pool building, etc. These building or parks are
+considered parent assets of parking lots and listed in "Park Name" column.A parking lot has certain number of 
+spaces including handicap spots. Every parking lot is identified by (X, Y) GIS coordinate. Parking lots may be 
+private, open for public, or used by members/staff only.Parking lot information you'll find in this dataset is the following:
+ + Parking Lot Asset ID
+ + Park Name
+ + Parking Spaces
+ + Handicap Parking Spaces
+ + GIS Coordinates
+ + Access
+- I used Foursquare API to get set of the information of venues in the city of Toronto
